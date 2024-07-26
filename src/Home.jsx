@@ -14,7 +14,7 @@ function Home() {
       <h1>Welcome to party</h1>
       <div classNameName="card">
         <button onClick={() => setCount((count) => count + 1)}>
-        <Link to="/registros">Registro</Link>
+        <Link to="/registros">Registrasdaso</Link>
         </button>
         
       </div>
