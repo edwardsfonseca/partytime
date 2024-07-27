@@ -1,0 +1,154 @@
+.login-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.login-logo {
+  position: relative;
+  color: red;
+  margin-left: 526px;
+  margin-top: 403px;
+  
+}
+.login-logo img {
+  position: absolute;
+  width: 20%;
+  margin-top: 19%;
+  background: #282726;
+  border-radius: 4.5rem;
+  padding: 5%;
+}
+.login-form-1 {
+  padding: 9%;
+  background: #2b0b0c;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3 {
+  text-align: center;
+  margin-bottom: 12%;
+  color: white;
+}
+.login-form-2 {
+  padding: 9%;
+  background-image: url("https://i.etsystatic.com/20493289/r/il/64aa16/1924265952/il_fullxfull.1924265952_2k5g.jpg");
+  background-repeat: round;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3 {
+  text-align: center;
+  margin-bottom: 12%;
+  color: #fff;
+}
+.btnSubmit {
+  font-weight: 600;
+  width: 45%;
+  color: #282726;
+  background-color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  margin: 5px;
+}
+
+.btnForgetPwd {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btnForgetPwd:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.login-row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 766px) {
+  .login {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 766px) {
+  .login-logo {
+    margin: 93px;
+    margin-left: 297px;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .icon-house {
+    background: #282726;
+
+    width: 83px;
+    height: 37px;
+    display: flex;
+    margin-top: -40px;
+
+    padding-top: 10px;
+    color: #f8f9fa;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 766px) {
+  .icon-house {
+    background: #282726;
+    width: 72px;
+    height: 33px;
+    display: flex;
+    margin-top: -39px;
+    padding-top: 10px;
+    margin-left: -77px;
+    color: #f8f9fa;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .co-sm-10 {
+    direction: rtl;
+    margin-right: -222px;
+  }
+}
+.fail {
+  color: red;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.auth {
+  margin: 3px 1;
+  color: red;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.login-style {
+  border-radius: 20px;
+  background: #e10b76;
+  height: 35px;
+  padding-top: 4px;
+  width: 83px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.logeate {
+  color: #f4f5f6;
+  text-decoration: none;
+}
+.logeate:hover {
+  color: #060606;
+  text-decoration: none;
+}
+
+.logoproyecto {
+  border-radius: 6px;
+  margin-left: 34%;
+  margin-bottom: 7px;
+}
+
+.form-group{
+  font-family: monospace;
+    color: white;
+}
