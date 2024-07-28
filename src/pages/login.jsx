@@ -1,14 +1,17 @@
 import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom';
+//funcion login te lleve a vista login 
+//alert en que caso de que el usuario no existe o este mal escrito
+
 function Login() {
     return (
         <div className="container login-container">
             <div className="row login-row login">
                 <div className="col-md-6 login-form-1" id="form1">
-                    <img className="logoproyecto" src="/../../logoproyecto.jpg"></img>
+                    
                     <h3>Inicia sesión</h3>
 
-                    <form className="form-group">
+                    <form className="loginf form-group">
                         <input
                             id="user"
                             type="text"
@@ -16,7 +19,7 @@ function Login() {
                             placeholder="Tu correo electrónico *"
 
                         />
-                        <div className="form-group">
+                        <div className="loginf form-group">
                             <input
                                 id="pass"
                                 type="password"
@@ -24,7 +27,7 @@ function Login() {
                                 placeholder="Tu contraseña *"
                             />
                         </div>
-                        <div className="form-group">
+                        <div className="loginf form-group">
                             <input
 
                                 type="submit"
@@ -34,11 +37,7 @@ function Login() {
                             <Link to="/registro">
                                 <input type="submit" className="btnSubmit" value="Regístrate" />
                             </Link>
-                            {alert && (
-                                <div className="alert alert-danger" id="alertSI" role="alert">
-                                    Completa datos
-                                </div>
-                            )}
+                            
                         </div>
                     </form>
 
@@ -48,7 +47,7 @@ function Login() {
                 <div className="col-md-6 login-form-2">
                     <div className="login-logo">
                         <Link to="/">
-                            <i className="fa-solid  fa-house icon-house"></i>
+                            <i className="fa-solid  fa-arrow-left"></i>
                         </Link>
                     </div>
                 </div>

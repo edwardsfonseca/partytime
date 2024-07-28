@@ -1,0 +1,11 @@
+.v-line{
+    border-left: solid thin;
+    height: 100%;
+    left: 68%;
+    position: absolute;
+}
+.loginicn{
+    bottom: 38px;
+    left: 74%;
+    position: relative;
+}

@@ -1,7 +1,8 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import '../syles/registro.css'
 function Registro() {
-
+//funcion de registro de session cuando tengas los datos en el form los guarde en una db para se utilizadas cuando se necesiten
+//alerte en caso de no completar los formularios correctamente
 
   return (
     <>
@@ -66,7 +67,7 @@ function Registro() {
           <div className="col-md-6 login-form-2">
             <div className="login-logo">
               {<Link to="/">
-                <i className="fa-solid  fa-x"></i>
+                <i className="fa-solid  fa-arrow-left"></i>
               </Link>}
             </div>
           </div>

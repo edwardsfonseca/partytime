@@ -3,3 +3,16 @@
   
   background-color: black;
 }
+.column{
+  position: relative;
+    top: 8px;
+}
+.columns{
+  
+    padding-top: 20px;
+    /* margin-top: 20px; */
+    display: flex;
+    padding: 17em;
+    justify-content: center;
+
+}

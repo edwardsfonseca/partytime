@@ -6,3 +6,7 @@
     on that page only (the ones not reused in other pages).
 */
 
+.home{
+    height: 250px;
+    background: #00000047;
+}

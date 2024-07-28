@@ -5,8 +5,10 @@ import Login from '../pages/login';
 import Footer from '../pages/footer';
 import Vistaadm from '../pages/vistaadm';
 import Vistalogin from '../pages/vistalogin';
+import Nav from '../pages/Nav';
 import Home from './Home';
-
+import Gatito from './gatito';
+// routes creadas para poder ver cualquier pagina
 function App() {
   return (
     <Routes>
@@ -16,6 +18,8 @@ function App() {
       <Route path="/vistalogin" element={<Vistalogin />} />
       <Route path="/vistaadm" element={<Vistaadm />} />
       <Route path="/footer" element={<Footer />} />
+      <Route path="/nav" element={<Nav />} />
+      <Route path="/gatito" element={<Gatito />} />
     </Routes>
   );
 }

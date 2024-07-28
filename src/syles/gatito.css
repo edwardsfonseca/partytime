@@ -1,0 +1,106 @@
+/* src/styles/Gatito.css */
+.gatito-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+  .gatito .cara {
+    position: relative;
+    width: 168px;
+    height: 172px;
+    background-color: #f5c5c5;
+    border-radius: 67%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+}
+  
+  .gatito .ojo {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .gatito .pupila {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .gatito .boca {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: #ff7f7f;
+    border-radius: 0 0 40px 40px;
+    bottom: 30px;
+  }
+  
+  .gatito .pelos {
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #f5c5c5;
+  }
+  
+  .gatito .pelos.izquierdo {
+    transform: rotate(30deg);
+    left: -25px;
+    top: 40px;
+  }
+  
+  .gatito .pelos.izquierdo::before,
+  .gatito .pelos.izquierdo::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #f5c5c5;
+  }
+  
+  .gatito .pelos.izquierdo::before {
+    transform: rotate(15deg);
+    top: -10px;
+  }
+  
+  .gatito .pelos.izquierdo::after {
+    transform: rotate(-15deg);
+    top: 10px;
+  }
+  
+  .gatito .pelos.derecho {
+    transform: rotate(-30deg);
+    right: -25px;
+    top: 40px;
+  }
+  
+  .gatito .pelos.derecho::before,
+  .gatito .pelos.derecho::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #f5c5c5;
+  }
+  
+  .gatito .pelos.derecho::before {
+    transform: rotate(-15deg);
+    top: -10px;
+  }
+  
+  .gatito .pelos.derecho::after {
+    transform: rotate(15deg);
+    top: 10px;
+  }
+  
