@@ -3,10 +3,14 @@
   margin-bottom: 5%;
 }
 .login-logo {
+  height: 28px;
+  font-size:x-large;
+  width: 31px;
+  border-radius: 6px;
   position: relative;
-  color: red;
-  margin-left: 526px;
-  margin-top: 403px;
+  margin-left:44em;
+  padding-right: 32px;
+  
   
 }
 .login-logo img {
@@ -18,14 +22,16 @@
   padding: 5%;
 }
 .login-form-1 {
-  padding: 9%;
+  padding: 11%;
   background: #2b0b0c;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
 }
 .login-form-1 h3 {
   text-align: center;
-  margin-bottom: 12%;
-  color: white;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-bottom: 19%;
+  color: rgb(134 141 98 / 80%);
 }
 .login-form-2 {
   padding: 9%;
@@ -68,16 +74,59 @@
     flex-direction: column-reverse;
   }
 }
-@media screen and (max-width: 766px) {
-  .login-logo {
-    margin: 93px;
-    margin-left: 297px;
-    color: #282726;
-    background-color: #fff;
-    border: none;
-    border-radius: 1.5rem;
+@media screen and (max-width: 700px) {
+  
+    
+    .login-logo {
+      top: -638px;
+      height: 28px;
+      font-size: x-large;
+      width: 31px;
+      border-radius: 6px;
+      position: relative;
+      margin-left: 39em;
+      padding-right: 34px;
   }
+  
+  
+  
+  
 }
+@media screen and (max-width: 1300px) {
+  
+    
+    .login-logo {
+      top: -638px;
+      height: 28px;
+      font-size: x-large;
+      width: 31px;
+      border-radius: 6px;
+      position: relative;
+      margin-left: 39em;
+      padding-right: 34px;
+  }
+  
+  
+  
+  
+}
+
+
+@media screen and (max-width: 774px) {
+  .login-logo {
+    top: -681px;
+    height: 28px;
+    font-size: x-large;
+    width: 31px;
+    border-radius: 6px;
+    position: relative;
+    margin-left: 6em;
+    /* padding-right: 33px; */
+}
+  
+  
+}
+
 @media screen and (max-width: 900px) {
   .icon-house {
     background: #282726;
@@ -91,6 +140,15 @@
     color: #f8f9fa;
     text-align: center;
   }
+}
+@media screen and (max-width :900px) {
+  .login-form-2 {
+    padding: 26%;
+    background-image: url(https://i.etsystatic.com/20493289/r/il/64aa16/1924265952/il_fullxfull.1924265952_2k5g.jpg);
+    background-repeat: round;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+  
 }
 @media screen and (max-width: 766px) {
   .icon-house {
@@ -150,5 +208,29 @@
 
 .form-group{
   font-family: monospace;
+  display: flex;
+  justify-content: center;
     color: white;
+}
+.form-control {
+  margin: 0px 0px 14px 4px;
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #e6f10d70;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.fa-solid{
+  margin-left: 1px;
+  color: gray;
 }

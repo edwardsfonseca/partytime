@@ -8,10 +8,10 @@ function Registro() {
       <div className="container login-container">
         <div className="row login-row">
           <div className="col-md-6 login-form-1">
-            <h3>Registro</h3>
+            <h3 className='rgh3'>Registro</h3>
             <form >
               <div className="form-group">
-                Nombre:
+                
                 <input
                   type="text"
                   placeholder="Tu nombre"
@@ -19,7 +19,7 @@ function Registro() {
                 />
               </div>
               <div className="form-group">
-                Correo electrónico:
+             
                 <input
                   type="text"
                   className="form-control"
@@ -29,7 +29,7 @@ function Registro() {
 
               </div>
               <div className="form-group">
-                Contraseña:
+              
                 <input
                   type="password"
                   className="form-control"
@@ -39,7 +39,7 @@ function Registro() {
 
               </div>
               <div className="form-group">
-                Dirección:
+          
                 <input
                   type="text"
                   placeholder="Tu dirección"
@@ -49,7 +49,7 @@ function Registro() {
 
               </div>
               <div className="form-group">
-                Teléfono:
+               
                 <input
                   type="text"
                   className="form-control"
@@ -66,7 +66,7 @@ function Registro() {
           <div className="col-md-6 login-form-2">
             <div className="login-logo">
               {<Link to="/">
-                <i className="fa-solid  fa-house icon-house"></i>
+                <i className="fa-solid  fa-x"></i>
               </Link>}
             </div>
           </div>
