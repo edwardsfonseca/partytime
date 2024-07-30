@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import '../syles/home.css'
 import '../syles/App.css'
 import Nav from '../pages/Nav';
+import Swal from 'sweetalert2'
 import Footer from './footer';
 import Gatito from './gatito';
 
@@ -14,7 +15,19 @@ import Gatito from './gatito';
 //
 function Home() {
   useEffect(() => {
-    alert('¡Bienvenido a PARTY TIME!');
+    Swal.fire({
+      title: "Bienvenidos a la diversion !!.",
+      width: 600,
+      padding: "3em",
+      color: "#716add",
+      background: "#fff url(/images/trees.png)",
+      backdrop: `
+        rgba(1,123,126,0.4)
+        url(https://i.pinimg.com/originals/e1/f2/3d/e1f23dfb401e68caf9e0d81e469a2b46.gif)
+        top right
+        no-repeat
+      `
+    });
   }, []);
 
   return (

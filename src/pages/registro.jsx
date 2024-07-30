@@ -1,8 +1,12 @@
-import { Routes, Route, Link } from 'react-router-dom';
-import '../syles/registro.css'
+import React, { useState } from 'react';
+ // Asegúrate de que la acción esté correctamente definida
+import { Link } from 'react-router-dom';
+import '../syles/registro.css';
+
 function Registro() {
-//funcion de registro de session cuando tengas los datos en el form los guarde en una db para se utilizadas cuando se necesiten
-//alerte en caso de no completar los formularios correctamente
+ 
+
+
 
   return (
     <>
@@ -12,72 +16,64 @@ function Registro() {
             <h3 className='rgh3'>Registro</h3>
             <form >
               <div className="form-group">
-                
                 <input
                   type="text"
+                  name="name"
                   placeholder="Tu nombre"
-                  className="form-control"
+                  className="form-control"                
                 />
               </div>
               <div className="form-group">
-             
                 <input
                   type="text"
+                  name="email"
                   className="form-control"
                   placeholder="Tu correo electrónico"
-
+                
                 />
-
               </div>
               <div className="form-group">
-              
                 <input
                   type="password"
+                  name="password"
                   className="form-control"
                   placeholder="Tu contraseña"
-
+                  
                 />
-
               </div>
               <div className="form-group">
-          
                 <input
                   type="text"
+                  name="address"
                   placeholder="Tu dirección"
                   className="form-control"
-
+                
                 />
-
               </div>
               <div className="form-group">
-               
                 <input
                   type="text"
+                  name="phone"
                   className="form-control"
-                  placeholder="Tu teléfono"
-
+                  placeholder="Tu teléfono"               
                 />
-
               </div>
               <div className="form-group">
-                <input type="submit" className="btnSubmit" />
+                <input type="submit" className="btnSubmit" value="Registrarse" />
               </div>
-            </form>
+            </form>          
           </div>
           <div className="col-md-6 login-form-2">
             <div className="login-logo">
-              {<Link to="/">
-                <i className="fa-solid  fa-arrow-left"></i>
-              </Link>}
+              <Link to="/">
+                <i className="fa-solid fa-x"></i>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-
-
-
     </>
-  )
+  );
 }
 
-export default Registro
+export default Registro;
